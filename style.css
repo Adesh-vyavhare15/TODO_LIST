@@ -1,0 +1,42 @@
+.listcontainer {
+    background: linear-gradient(to right, #5d9feb, #e669db);
+    padding: 20px;
+}
+.todo-app {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #ffcb8f;
+    border-radius: 5px;
+}
+input[type="text"], button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+input[type="text"] {
+    width: 70%;
+}
+button {
+    margin-top: 2px;
+    width: 28%;
+    cursor: pointer;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    background: linear-gradient(to right, #f77022, #ddee48);
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.completed {
+    text-decoration: line-through;
+}
+.close {
+    float: right;
+    cursor: pointer;
+}
